@@ -15,4 +15,4 @@ RUN ln -s /usr/local/bin/grunt /usr/bin/grunt
 RUN apt-get install ant -y
 RUN apt-get install s3cmd -y
 RUN apt-get install vim -y
-COPY baked.sh /usr/src/app
+COPY build.sh /usr/src/app
